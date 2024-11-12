@@ -1,0 +1,10 @@
+<form action="http://localhost:3000/process_create" method="post">
+<p><input type="text" name="title"></p>
+<p>
+  <textarea name="description"></textarea>
+</p>
+<p>
+  <input type="submit">
+</p>
+
+//서버의 데이터를 수정, 삭제 할 때는 반드시 method를 post방식으로 해야 한다. (querystring에 데이타가 담기면 모르는 사람이 우리 서버의 정보를 수정가능)
